@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 Qrowchen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+
+NOTE ON ASSETS / 关于素材的例外说明
+
+The MIT license above applies to the source code only.
+
+Files under `assets/` (the whale-girl images, the four expression sets v1-v4,
+and the sound effects) are NOT MIT-licensed. They are a derivative work based on
+fornarwhal/deepseek-whale-girl-icon and are distributed under
+CC BY-NC-SA 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+That means: attribution required, NON-COMMERCIAL use only, and derivatives must
+be shared under the same license. Replace all files under `assets/` before any
+commercial use.
+
+`renderer/widget.js` is extracted from the DSH plugin
+`dsh-whale-widget-plus-punky` (MIT), which itself is a derivative of
+`dsh-whale-widget` by 月匠 (MIT).

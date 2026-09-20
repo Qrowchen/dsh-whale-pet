@@ -1,0 +1,15 @@
+{
+  "name": "dsh-whale-pet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "大肥鱼桌宠：独立 Electron 应用，直连 DeepSeek API，不依赖 DSH",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "gen:widget": "node extract-widget.mjs",
+    "test": "node test-main.mjs"
+  },
+  "devDependencies": {
+    "electron": "^44.3.0"
+  }
+}
