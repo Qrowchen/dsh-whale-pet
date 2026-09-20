@@ -1,8 +1,0 @@
-{
-  "apiKey": "sk-你的DeepSeekAPIKey",
-  "scale": 1.5,
-  "exprVer": "v2",
-  "model": "deepseek-flash",
-  "soundOn": true,
-  "vol": 0.9
-}
