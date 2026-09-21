@@ -3,7 +3,26 @@
 独立运行在桌面上的大肥鱼挂件：透明无边框窗口、可在**屏幕任意位置拖动**，显示
 DeepSeek 余额，并带一个可多会话切换的对话面板。**不依赖 DSH**，直接连 DeepSeek API。
 
-## 启动
+## 下载（想直接用，不折腾环境）
+
+到 **[Releases](https://github.com/Qrowchen/dsh-whale-pet/releases/latest)** 下载
+`dsh-pet-*.zip`（约 229 MB），解压到任意目录，双击 `启动-静默.vbs` 即可运行 ——
+**不需要装 Node.js，也不需要联网装依赖**。首次使用要先把自己的 DeepSeek API Key
+填进 `resources/app/config.json`（详见包里的 `使用说明.md`）。
+
+> ⚠️ **别点错**：Release 页面上 GitHub 会自动列出一个 `Source code (zip)`，那是
+> **源码压缩包，不能直接运行**。要下载的是 **Assets** 区域里的 `dsh-pet-*.zip`。
+>
+> ⚠️ 仓库文件列表里**没有** zip，这是故意的：里面 `WhalePet.exe` 有 234 MB，超过
+> GitHub 单文件 100 MB 的硬上限，所以「源码进仓库、可运行整包放 Release 附件」
+> 是这里唯一可行的分发方式。**仓库里的内容 ≠ Release 里的 zip**：
+> 前者只有源码，后者是源码 **+ Electron 运行时**。
+
+---
+
+## 从源码运行（想改代码）
+
+需要 Node.js，首次先 `npm install`（约 380 MB 依赖）。
 
 **推荐**：双击 `start-pet.vbs`（无黑窗，静默启动）。
 
